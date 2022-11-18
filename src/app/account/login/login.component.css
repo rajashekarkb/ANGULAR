@@ -1,0 +1,73 @@
+.container{
+    padding-top: 6%;
+}
+
+.cardDiv{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    width: 380px;
+    height: 420px;
+    display: flex;
+    padding: 0px !important;
+    padding: 0 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 8px -2px rgb(0 120 140 / 50%);   
+}
+.form-control{
+    height: 42px !important;
+    font-size: 16px;
+    
+}
+.btn {
+    padding: 8px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    background-color: #276caf;
+    border-color: #276caf;
+    transition: all 0.3s ease-in;
+}
+.btn:hover {
+    font-weight: 600;
+    color: #276caf;
+    background-color: white;
+    border-color: #276caf;
+}
+.pswdtext {
+    font-size:14px;
+    color: black;
+    font-weight: 700;
+}
+.pswdtext:hover {
+    color: #276caf;
+}
+
+.alrdytext{
+    font-size:14px;
+    color: black;
+}
+
+.errormessage{
+    color: red;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    
+    .header-right {
+      float: none;
+    }
+
+    .container{
+        padding-top: 2%;
+    }
+  }
