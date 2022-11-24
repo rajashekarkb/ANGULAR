@@ -40,8 +40,8 @@ body {
 }
 
 .header a.active {
-    background-color: #276caf;
-    color: white;
+  background-color: #00a884;
+  color: white;
 }
 
 .header-right {
